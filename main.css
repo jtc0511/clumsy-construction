@@ -1,0 +1,11 @@
+header {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 20px;
+    padding-right: 50px;
+}
