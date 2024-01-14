@@ -8,6 +8,17 @@ header {
     align-items: center;
 }
 
+.nav {
+    background-color:  rgb(255, 164, 61);
+    height: 50px;
+    border-radius: 50px;
+    flex-basis: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
 .logoimg {
     height: 150px;
     width: auto;
@@ -28,6 +39,9 @@ header {
     flex: 1;
     gap: 20px;
     padding-right: 50px;
+    border: 5px solid rgb(255, 164, 61);
+    padding: 5px;
+    
 }
 
 .iltr {
@@ -87,10 +101,33 @@ header {
 .inbc {
     flex-basis: 100%;
     flex: 1;
+    display: flex;
 }
 
 .inbc2 {
-    justify-content: center;
-    flex-basis: 100%;
-    flex: 1;
+   padding: 30px;
+   background-color: rgb(255, 164, 61);
+    border-radius: 50px;
 }
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+.botcon {
+    display: flex;
+    background-color:rgb(255, 164, 61) ;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.bc {
+    display: flex;
+    flex-basis: 100%;
+    align-content: center;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
